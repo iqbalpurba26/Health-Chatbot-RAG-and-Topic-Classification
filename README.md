@@ -1,6 +1,6 @@
 # GET STARTED
 
-To learn more about this project, you can access the detailed information [HERE](https://github.com/iqbalpurba26/Health-Chatbot-RAG-And-Topic-Classification/blob/main/README.md)
+To learn more about this project, you can access the detailed information [[HERE]](https://github.com/iqbalpurba26/Health-Chatbot-RAG-and-Topic-Classification/blob/main/ABOUT%20PROJECT.md)
 
 Before running this project, there are a few things you need to pay attention to:
 
