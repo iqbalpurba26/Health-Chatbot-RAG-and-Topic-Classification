@@ -1,4 +1,5 @@
 env/
+vectorstore/
 knowledge_base.json
 .env
 __pycache__/
