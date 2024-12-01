@@ -1,0 +1,4 @@
+env/
+knowledge_base.json
+.env
+__pycache__/
