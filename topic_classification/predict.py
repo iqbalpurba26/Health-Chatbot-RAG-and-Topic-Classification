@@ -11,8 +11,8 @@ tf_log.set_verbosity_error()
 warnings.filterwarnings("ignore")
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
 
-model = TFBertForSequenceClassification.from_pretrained("iqbalpurba26/IndoBERT_intent_classification")
-tokenizer = AutoTokenizer.from_pretrained("iqbalpurba26/IndoBERT_intent_classification")
+model = TFBertForSequenceClassification.from_pretrained("iqbalpurba26/IndoBERT-topic-classification")
+tokenizer = AutoTokenizer.from_pretrained("iqbalpurba26/IndoBERT-topic-classification")
 topics = ["alergi", "obat", "menstruasi"]
 
 def predict_topic(prompt):
