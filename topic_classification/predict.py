@@ -17,7 +17,7 @@ topics = ["alergi", "obat", "menstruasi"]
 
 def predict_topic(prompt):
     """
-    This function to classification intent of user's prompt
+    This function to classification topic of user's prompt
 
     Args:
     prompt : string, user prompt

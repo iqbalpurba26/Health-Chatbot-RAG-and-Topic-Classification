@@ -11,7 +11,7 @@ def chunk_texts(dataset, chunk_size=5000, chunk_overlap=100):
 
     Args:
     dataset: knowledge base chatbot,
-    chunk_size: maximal total chunk
+    chunk_size: maximum total chunk,
     chunk_overlap: number of overlapping tokens
 
     Return:

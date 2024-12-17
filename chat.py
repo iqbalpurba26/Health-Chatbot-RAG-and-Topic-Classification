@@ -1,3 +1,4 @@
+"""chat.py to create the format respond"""
 import json
 from fastapi import HTTPException
 from langchain.callbacks import get_openai_callback
@@ -6,6 +7,15 @@ from retrieval import retrieve
 from generate_answer import completion
 
 def chat(prompt):
+    """
+    This function to call other function and create a new respond format
+
+    Arg:
+    prompt: User's prompt
+
+    Return:
+    response_json : A New format respond in JSON
+    """
     try:
         with get_openai_callback() as cb:
             topic = predict_topic(prompt)
